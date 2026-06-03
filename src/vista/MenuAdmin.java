@@ -31,8 +31,8 @@ public class MenuAdmin extends javax.swing.JFrame {
         jDesktopPane_menu.setBounds(0, 60, ancho, (alto - 170));
         this.add(jDesktopPane_menu);
         
-        //validar permisos
-         //validarPermisos();
+        //validar permisos para asignar roles de usuario
+         validarPermisos();
     }
 
     /**
